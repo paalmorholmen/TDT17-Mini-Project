@@ -1,0 +1,9 @@
+channels:
+- defaults
+dependencies:
+- ipykernel
+- kaggle
+- matplotlib
+- pre_commit
+- python-dotenv
+name: TDT17
