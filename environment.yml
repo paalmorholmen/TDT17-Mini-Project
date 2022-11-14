@@ -4,6 +4,7 @@ dependencies:
 - ipykernel
 - kaggle
 - matplotlib
+- pillow
 - pre_commit
 - python-dotenv
 name: TDT17
