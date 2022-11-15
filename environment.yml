@@ -7,4 +7,7 @@ dependencies:
 - pillow
 - pre_commit
 - python-dotenv
+- pyyaml
+- scikit-learn
+- wandb
 name: TDT17

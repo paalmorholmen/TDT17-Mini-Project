@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import glob
 import os
 import json
+import yaml
 
 from utils import xml_to_yolo_bbox
 
@@ -52,5 +53,5 @@ for fil in files:
             f.write("\n".join(result))
 
 # generate the classes file as reference
-with open("classes.txt", "w", encoding="utf8") as f:
+with open("data.yaml", "w", encoding="utf8") as f:
     f.write(json.dumps(classes))
