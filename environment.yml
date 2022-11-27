@@ -1,5 +1,6 @@
 channels:
 - defaults
+- conda-forge
 dependencies:
 - ipykernel
 - kaggle
@@ -7,4 +8,7 @@ dependencies:
 - pillow
 - pre_commit
 - python-dotenv
+- pyyaml
+- scikit-learn
+- wandb
 name: TDT17
